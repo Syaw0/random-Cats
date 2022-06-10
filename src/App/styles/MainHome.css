@@ -1,0 +1,44 @@
+#MainHome_con{
+     min-height: 100vh;
+     background-color: #E5E4C0;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     padding-top: 3rem;
+     align-items: center;
+}
+
+#Cat_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Cat_card_img{
+    width: 70%;
+    height: auto;
+    border-radius: 16px;
+}
+
+#NextImg{
+    padding: 0.4rem 1.2rem;
+}
+
+#AddToFavList:hover{
+    border-bottom: 2px solid #1B1D00;
+}
+
+#Cat_card_btns{
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#Cat_card_btns>*{
+    margin: 0 0.5rem;
+}

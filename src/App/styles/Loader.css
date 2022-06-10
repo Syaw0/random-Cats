@@ -1,0 +1,22 @@
+    #Loader_con{
+width: 100%;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+    
+    #loader{
+  border: 3px solid #BFECDA;
+  border-top-color: #002117;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

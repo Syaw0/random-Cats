@@ -1,3 +1,11 @@
+@import "./styleLib.css";
+@import "./button.css";
+@import "./Home.css";
+@import "./nav.css";
+@import "./LandPage.css";
+@import "./MainHome.css";
+@import "./Loader.css";
+@import "./Favorite.css";
 *{
   padding: 0;
   margin: 0;
@@ -5,11 +13,29 @@
 }
 
 #root{
+  
     width: 100%;
+    min-height: 100vh;
     position: relative;
-    background-color: var(--onbg);
+    background-color: #FFFCF3
 }
 
+#NotFound_con{
+min-height: 100vh;
+background-color: #E5E4C0;
+width: 100%;
+;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#notfoundText{
+  text-align: center;
+  color:#1B1D00 ;
+  font: var(--headline4);
+  font-family: "commissioner-semibold";
+}
 
 a{text-decoration: none;color: inherit;}
 

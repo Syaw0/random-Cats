@@ -1,0 +1,95 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+
+
+
+    /* shadow */
+
+    --shadow1dp:0px 0px 2px 0px #00000024 , 0px 2px 2px 0px #0000001f , 0px 1px 3px 0px  #00000033 ; 
+    --shadow8dp:0px 8px 10px 1px #00000024 , 0px 3px 14px 3px #0000001f , 0px 4px 15px 0px  #00000033 ; 
+    --shadow24dp:0px 24px 38px 3px #00000024 , 0px 9px 46px 8px #0000001f , 0px 11px 15px 0px  #00000033 ; 
+
+    /* padding  */
+
+    --largscale:128px;
+    --mediumscale:64px;
+    --smallscale:16px;
+
+    /* typography  */
+
+ --display2:57px/64px "Fraunces-reg" ; 
+ --display3:45px/52px "Fraunces-reg" ; 
+    --letterDisplay2:-0.25px ;
+    --headline0:40px/44px "Fraunces-reg" ; 
+    --headline1:36px/44px "Fraunces-reg" ; 
+    --headline2:32px/40px "Fraunces-reg" ; 
+    --headline3:28px/37px "Fraunces-reg" ; 
+    --headline4:24px/32px "Fraunces-reg" ;  
+    --headline5:22px/28px "Fraunces-reg" ; 
+    --headline6:18px/24px "Fraunces-reg" ; 
+    --headline7:14px/24px "Fraunces-reg" ; 
+    --headline8:12px/24px "Fraunces-reg" ; 
+    --caption:12px/16px "Fraunces-reg" ; 
+    --subhead1:  16px/24px "commissioner-reg" ; 
+    --subhead2:  14px/20px "commissioner-reg" ; 
+    --subhead3:  12px/20px "commissioner-reg" ; 
+    --button:  14px/20px "commissioner-reg" ; 
+    --labelsmall:  16px/24px "commissioner-reg" ;
+    --body1:  16px/24px "commissioner-reg" ; 
+    --body2:  12px/20px "commissioner-reg" ; 
+    --letterbody1: 0.5px ; 
+}
+
+@font-face {
+    font-family: "commissioner-reg";
+    src: url("../asesst//font/commissioner/Commissioner-Regular.ttf");
+}
+@font-face {
+    font-family: "commissioner-semiBold";
+    src: url("../asesst//font/commissioner/Commissioner-SemiBold.ttf");
+}
+@font-face {
+    font-family: "commissioner-bold";
+    src: url("../asesst//font/commissioner/Commissioner-Bold.ttf");
+}
+@font-face {
+    font-family: "commissioner-extraBold";
+    src: url("../asesst//font/commissioner/Commissioner-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "commissioner-black";
+    src: url("../asesst//font/commissioner/Commissioner-Black.ttf");
+}
+
+
+@font-face {
+    font-family: "Fraunces-reg";
+    src: url("../asesst//font/fraunences/Fraunces-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Fraunces-semiBold";
+    src: url("../asesst//font/fraunences/Fraunces-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Fraunces-Bold";
+    src: url("../asesst//font/fraunences/Fraunces-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Fraunces-extraBold";
+    src: url("../asesst//font/fraunences/Fraunces-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "Fraunces-black";
+    src: url("../asesst//font/fraunences/Fraunces-Black.ttf");
+}
+

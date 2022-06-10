@@ -1,0 +1,87 @@
+#NavBar{
+    background-color: #E4E972;
+    width: 100% ;
+    color: #1B1D00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px var(--largscale);
+    box-shadow: var(--shadow8dp);
+    position: relative;
+    z-index: 100;
+    cursor: default;
+
+}
+
+#NavBar_left{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 50%;
+}
+
+#logo{
+    font:var(--headline4) ; 
+    font-family: "Fraunces-Bold";
+    color: #1B1D00;
+}
+
+#NavBar_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+#NavBar_right>*{
+    padding: 0px 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.activeLink{
+    font:var(--headline7) ; 
+    font-family: "commissioner-Bold";
+    border-bottom: 2px solid #1B1D00;
+    color: #1B1D00;
+}
+
+.deActiveLink{
+    font:var(--headline7) ; 
+    font-family: "commissioner-reg";
+    color: #1B1D00;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    #NavBar{
+
+        padding: 8px var(--mediumscale);
+
+    }
+    
+    
+}
+
+
+
+@media only screen and (max-width:500px) {
+
+    #NavBar{
+
+        padding: 8px var(--smallscale);
+
+    }
+
+    #logo{
+        font:var(--headline5) ; 
+        font-family: "Fraunces-Bold";
+    }
+    
+    
+    
+}
