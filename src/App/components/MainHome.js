@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import useStore from "../store/store";
 import Button from "../components/Button";
 import Loader from "./loader";
+import Ico_catCry from "../asesst/icons/Ico_catCry";
 
 function MainHome() {
   const getCat = useStore((state) => state.setCurrentImg);
@@ -63,7 +64,10 @@ function MainHome() {
         </div>
         {isFailCall && (
           <div id="FailCall_con">
-            <h1>Failed</h1>
+            <p id="failText">
+              Failed To Get Cat Image <span><Ico_catCry/></span> <br></br>
+              <span style={{font:"var(--headline6)" , fontFamily:"commissioner-semiBold" , opacity:"0.8" , paddingTop:"1.5rem"}}>this Error could cause by your network <br></br>or maybe from the Api server <br></br> check your Internet or try a few minute later </span>
+            </p>
           </div>
         )}
       </div>

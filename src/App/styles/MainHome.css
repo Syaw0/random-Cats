@@ -42,3 +42,14 @@
 #Cat_card_btns>*{
     margin: 0 0.5rem;
 }
+
+
+#FailCall_con{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--headline2);
+    font-family: "Fraunces-Bold";
+}
